@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sevillana&display=swap');
+
+body{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+}
+
+h1{
+    color: azure;
+    text-align: center;
+    font-family: 'Sevillana';
+    width: 100%;
+    font-weight: 500;
+
+}
