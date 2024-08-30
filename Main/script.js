@@ -1,10 +1,19 @@
-let num = 31;
-let str = "Yoo";
-let bol = true;
+// first declaration
+let num = 32;
+console.log("1st - " + num);
 
-console.log(num);
-console.log(typeof num);
-console.log(str);
-console.log(typeof str);
-console.log(bol);
-console.log(typeof bol);
+// second declaration
+num = 21;
+console.log("2nd - " + num)
+
+// ------
+console.log("---")
+// ------
+
+// first declaration
+let bol = true;
+console.log("1st - " + bol);
+
+// second declaration
+bol = false;
+console.log("2nd - " + bol)
