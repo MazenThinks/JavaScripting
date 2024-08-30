@@ -1,42 +1,42 @@
-console.log("---")
+console.log("--- Let ---");
+
+// let - value can be changed 
+let lett = 31;
+console.log("1st Value ? " + lett)
+
+lett = 32;
+console.log("2nd value ? " + lett);
 
 // ---
+console.log("--- Var ---");
+//---
 
-// first declaration
-let num = 32;
-console.log("1st ? " + num);
+// Var - Same as Let 
+var varr = 31;
+console.log("1st Value ? " + varr);
 
-// second declaration
-num = 21;
-console.log("2nd ? " + num)
+varr = 32;
+console.log("2nd Value ? " + varr);
 
-// ------
-console.log("---")
-// ------
+//---
+console.log("--- Const ---");
+//---
 
-// first declaration
-let bol = true;
-console.log("1st ? " + bol);
+// Const - unchangeable value 
+const constt = 31;
+console.log("1st Value ? " + constt);
 
-// second declaration
-bol = false;
-console.log("2nd ? " + bol)
-
-// ------
-console.log("---")
-// ------
-
-// first declaration 
-let undef;
-console.log("1st ? " + undef)
-console.log("type ? " + typeof undef)
-
-undef = "def";
-console.log("2nd ? "+ undef)
+// it gives error
+// constt = 32; 
+// console.log("2nd Value ? " + constt);
 
 // ---
+console.log("--- Free Var ---");
+//---
 
-console.log("---")
+// free var 
+freeVar = 31;
+console.log("1st Value ? " + freeVar);
 
-
-
+freeVar = 32;
+console.log("2nd Value ? " + freeVar);
