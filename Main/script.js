@@ -11,20 +11,20 @@ massJohn = 92;
 heightJohn = 1.95;
 
 // BMI
-let bmiMark, bmiJohn;
+let BMIMark , BMIJohn;
 
 // Mark BMI
-bmiMark = massMark / (heightMark ** 2);
+BMIMark  = massMark / (heightMark ** 2);
 
 // John BMI
-bmiJohn = massJohn / (heightJohn ** 2);
+BMIJohn = massJohn / (heightJohn ** 2);
 
 // Consoling results
-console.log("Mark's BMI : ", bmiMark)
-console.log("John's BMI : ", bmiJohn)
+console.log("Mark's BMI : ", BMIMark)
+console.log("John's BMI : ", BMIJohn)
 
 // Higher BMI
-if(bmiMark > bmiJohn) {
+if(BMIMark > BMIJohn) {
     console.log("Mark got the higher BMI");
 }
 else{
@@ -42,12 +42,17 @@ heightMark = 1.88;
 massJohn = 85;
 heightJohn = 1.76;
 
+BMIMark  = massMark / (heightMark ** 2);
+
+// John BMI
+BMIJohn = massJohn / (heightJohn ** 2);
+
 // Consoling results
-console.log("Mark's BMI : ", bmiMark)
-console.log("John's BMI : ", bmiJohn)
+console.log("Mark's BMI : ", BMIMark)
+console.log("John's BMI : ", BMIJohn)
 
 // Higher BMI
-if(bmiMark > bmiJohn) {
+if(BMIMark > BMIJohn) {
     console.log("Mark got the higher BMI")
 }
 else{
