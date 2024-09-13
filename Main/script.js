@@ -1,36 +1,55 @@
-// Operators 
+console.log("---Data1---");
 
-// Math Operators 
-console.log("--- Math Operators ---")
+let massMark, heightMark, massJohn, heightJohn;
+// Data 1
+// Mark Data
+massMark = 78;
+heightMark = 1.69;
 
-let x = 10;
-let y = 5;
+// John Data
+massJohn = 92;
+heightJohn = 1.95;
 
-console.log(x + y); // plus
-console.log(x - y); // minus
-console.log(x * y); // multiplication
-console.log(x / y); // division
-console.log(x % y); // Module
-console.log(x ** y); // Power
+// BMI
+let bmiMark, bmiJohn;
 
-// Assignment Operators
-console.log("--- Assignment Operators ---");
+// Mark BMI
+bmiMark = massMark / (heightMark ** 2);
 
-x += 10; // x = x + 10
-console.log(x);
+// John BMI
+bmiJohn = massJohn / (heightJohn ** 2);
 
-x *= 2; // x = x * 2
-console.log(x);
+// Consoling results
+console.log("Mark's BMI : ", bmiMark)
+console.log("John's BMI : ", bmiJohn)
 
-x++; // x = x + 1
-console.log(x);
+// Higher BMI
+if(bmiMark > bmiJohn) {
+    console.log("Mark got the higher BMI");
+}
+else{
+    console.log("John got the higher BMI");
+}
 
-x--; // x = x - 1
-console.log(x);
+console.log("---Data2---");
 
-// Comparison Operators
-console.log("--- Comparison Operators ---");
-console.log(x > y); // x bigger than y ?
-console.log(x < y); // x smaller than y ?
-console.log(x > y * 8); // x bigger than y * 8 ?
-console.log(x >= y * 8); // x bigger than or equal y* 8 ?
+// Data 2
+// Mark Data
+massMark = 95;
+heightMark = 1.88;
+
+// John Data
+massJohn = 85;
+heightJohn = 1.76;
+
+// Consoling results
+console.log("Mark's BMI : ", bmiMark)
+console.log("John's BMI : ", bmiJohn)
+
+// Higher BMI
+if(bmiMark > bmiJohn) {
+    console.log("Mark got the higher BMI")
+}
+else{
+    console.log("John got the higher BMI")
+}
