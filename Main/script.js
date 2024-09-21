@@ -1,60 +1,14 @@
-console.log("---Data1---");
+let Fname = "Jacked";
+let status = "student";
+let birthYear = 2050;
+let year = 2070;
 
-let massMark, heightMark, massJohn, heightJohn;
-// Data 1
-// Mark Data
-massMark = 78;
-heightMark = 1.69;
+console.log("My name is " + Fname + " a " + (year - birthYear) + " years old " + status);
 
-// John Data
-massJohn = 92;
-heightJohn = 1.95;
+let age = year - birthYear
 
-// BMI
-let BMIMark , BMIJohn;
+console.log("My name is " + Fname + " a " + age + " years old " + status);
 
-// Mark BMI
-BMIMark  = massMark / (heightMark ** 2);
+const text = `My name is ${Fname} a ${age} years old ${status}`;
+console.log(text);
 
-// John BMI
-BMIJohn = massJohn / (heightJohn ** 2);
-
-// Consoling results
-console.log("Mark's BMI : ", BMIMark)
-console.log("John's BMI : ", BMIJohn)
-
-// Higher BMI
-if(BMIMark > BMIJohn) {
-    console.log("Mark got the higher BMI");
-}
-else{
-    console.log("John got the higher BMI");
-}
-
-console.log("---Data2---");
-
-// Data 2
-// Mark Data
-massMark = 95;
-heightMark = 1.88;
-
-// John Data
-massJohn = 85;
-heightJohn = 1.76;
-
-BMIMark  = massMark / (heightMark ** 2);
-
-// John BMI
-BMIJohn = massJohn / (heightJohn ** 2);
-
-// Consoling results
-console.log("Mark's BMI : ", BMIMark)
-console.log("John's BMI : ", BMIJohn)
-
-// Higher BMI
-if(BMIMark > BMIJohn) {
-    console.log("Mark got the higher BMI")
-}
-else{
-    console.log("John got the higher BMI")
-}
