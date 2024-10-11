@@ -1,21 +1,31 @@
-// Conversion 
+//  falsy values
 
-const year = "2000";
-console.log(year + 18); // 200018
-console.log(Number(year) + 18); // 2018
-
-// coercion
-
-console.log("18" + "10" + 9); // 18109
-console.log("18" - "10" - 9); // -1 
+// all outputs are FALSE
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(''));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
 
 // more examples
 
-let n = "1" - 1;
-console.log(n); // 0
+// 0 is a Falsy value so it outputs the else part
+let money = 0;
 
-n = n + "10"; 
-console.log(n); // 010
+if (money) {
+    console.log("Its TRUE");
+}
+else {
+    console.log("Its FALSE");
+}
 
+// height is undefined so it outputs the else part
+let height;
 
+if (height) {
+    console.log("Its TRUE");
+}
+else {
+    console.log("Its FALSE");
+}
 
