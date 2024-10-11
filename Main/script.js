@@ -1,15 +1,21 @@
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+// Conversion 
 
-const BMIMark = massMark / (heightMark * heightMark);
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIMark, BMIJohn);
+const year = "2000";
+console.log(year + 18); // 200018
+console.log(Number(year) + 18); // 2018
 
-if (BMIJohn > BMIMark) {
-    console.log("John's BMI is higher than Mark's!");
-} 
-else {
-    console.log("Mark's BMI is higher than John's!");
-}
+// coercion
+
+console.log("18" + "10" + 9); // 18109
+console.log("18" - "10" - 9); // -1 
+
+// more examples
+
+let n = "1" - 1;
+console.log(n); // 0
+
+n = n + "10"; 
+console.log(n); // 010
+
+
+
