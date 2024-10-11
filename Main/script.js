@@ -1,14 +1,15 @@
-let Fname = "Jacked";
-let status = "student";
-let birthYear = 2050;
-let year = 2070;
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
 
-console.log("My name is " + Fname + " a " + (year - birthYear) + " years old " + status);
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
 
-let age = year - birthYear
-
-console.log("My name is " + Fname + " a " + age + " years old " + status);
-
-const text = `My name is ${Fname} a ${age} years old ${status}`;
-console.log(text);
-
+if (BMIJohn > BMIMark) {
+    console.log("John's BMI is higher than Mark's!");
+} 
+else {
+    console.log("Mark's BMI is higher than John's!");
+}
